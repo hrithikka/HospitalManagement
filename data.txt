@@ -1,0 +1,98 @@
+
+> use Hospital_Management
+switched to db Hospital_Management
+//hospital collection
+> db.Hospital.find().pretty();
+{
+        "_id" : ObjectId("5f776d5cdee39bbc040f9146"),
+        "hId" : "H1",
+        "name" : "Apollo hospital",
+        "location" : "17.398644,78.434334",
+        "address" : "PlotNo. 3-5-874/1 Near,old mla headquaters,hyderguda,hyderabad,telangana 500029",
+        "contactNo" : "040-23231380"
+}
+{
+        "_id" : ObjectId("5f776d5cdee39bbc040f9147"),
+        "hId" : "H2",
+        "name" : "Yoshoda hospital",
+        "location" : "17.4421, 78.4971",
+        "address" : "Alexandar Rd,Kummari Guda,Shivaji Nagar,Secunderabad,Telangana 500003",
+        "contactNo" : "040-45674567"
+}
+{
+        "_id" : ObjectId("5f776d5cdee39bbc040f9148"),
+        "hId" : "H3",
+        "name" : "Rainbow hospital",
+        "location" : "17.4250, 78.4320",
+        "address" : "Road Number 2, near Hotel Park Hyatt, Sri Nagar Colony, Kamalapuri Colony, Banjara Hills, Hyderabad, Telangana 500034",
+        "contactNo" : " 040-44665555"
+}
+
+
+
+
+//ventilators collection
+> db.ventilators.find().pretty();
+{
+        "_id" : ObjectId("5f776e10dee39bbc040f914c"),
+        "hId" : "H3",
+        "ventilatorId" : "H3V1",
+        "status" : "occupied",
+        "name" : "Yoshoda hospital"
+}
+{
+        "_id" : ObjectId("5f776e10dee39bbc040f914d"),
+        "hId" : "H3",
+        "ventilatorId" : "H3V2",
+        "status" : "available",
+        "name" : "Yoshoda hospital"
+}
+{
+        "_id" : ObjectId("5f776e10dee39bbc040f914e"),
+        "hId" : "H3",
+        "ventilatorId" : "H3V3",
+        "status" : "in-maintenance",
+        "name" : "Yoshoda hospital"
+}
+{
+        "_id" : ObjectId("5f776e95dee39bbc040f914f"),
+        "hId" : "H2",
+        "ventilatorId" : "H2V1",
+        "status" : "occupied",
+        "name" : "Rainbow hospital"
+}
+{
+        "_id" : ObjectId("5f776e95dee39bbc040f9150"),
+        "hId" : "H2",
+        "ventilatorId" : "H2V2",
+        "status" : "available",
+        "name" : "Rainbow hospital"
+}
+{
+        "_id" : ObjectId("5f776e95dee39bbc040f9151"),
+        "hId" : "H2",
+        "ventilatorId" : "H2V3",
+        "status" : "in-maintenance",
+        "name" : "Rainbow hospital"
+}
+{
+        "_id" : ObjectId("5f783863e96508169cd2929f"),
+        "hId" : "H1",
+        "ventilatorId" : "H1V1",
+        "status" : "occupied",
+        "name" : "Apollo hospital"
+}
+{
+        "_id" : ObjectId("5f783873e96508169cd292a0"),
+        "hId" : "H1",
+        "ventilatorId" : "H1V2",
+        "status" : "availabe",
+        "name" : "Apollo hospital"
+}
+{
+        "_id" : ObjectId("5f78389fe96508169cd292a1"),
+        "hId" : "H1",
+        "ventilatorId" : "H1V3",
+        "status" : "in-maintenance",
+        "name" : "Apollo hospital"
+}
